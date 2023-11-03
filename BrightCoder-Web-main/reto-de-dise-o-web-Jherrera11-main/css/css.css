@@ -6,8 +6,8 @@
 
 body {
   background: 
-    url(/images/bg-pattern-bottom-desktop.svg) bottom right no-repeat,
-    url(/images/bg-pattern-top-desktop.svg) top left no-repeat;
+    url(../images/bg-pattern-bottom-desktop.svg) bottom right no-repeat,
+    url(../images/bg-pattern-top-desktop.svg) top left no-repeat;
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -29,18 +29,21 @@ body {
   justify-content: space-between; 
 }
 
+
+
 .card_purple_light {
   background-color: #f7f2f8;
   border-radius: 5px;
-  margin: 1.2rem;
-  padding: 1.8rem 2.5rem;
+  margin: 1.2rem 0; 
+  padding: 1.8rem 2.5rem; 
   display: flex;
 }
 
 .card_purple_dark {
   background-color: #511f50;
-  border-radius: 10px;
-  margin: 1.2rem;
+  border-radius: 5px;
+  width: 100%;
+  margin: 1.2rem ;
   padding: 1.8rem 2.5rem;
 }
 
@@ -70,13 +73,13 @@ body {
   margin-top: 0;
 }
 
+
 /*<-- information styles end -->*/
 
 /*<-- reviews styles stard -->*/
 .reviews{
   min-height: 150px;
   width: 50%; 
-  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -104,6 +107,7 @@ body {
 /*<-- Comments styles stard -->*/
 .comments{
   display: flex;
+  box-sizing: border-box;
   padding-top: 50px;
 }
 
@@ -157,3 +161,115 @@ div .img img{
 /*<-- Comments styles end -->*/
 
 /*<-- Contend styles end -->*/
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 10px; /* Ajustar el espaciado general en dispositivos móviles */
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+}
+
+  .reviews {
+    width: 100%; /* Ancho completo en dispositivos móviles */
+    padding: 20px;
+  }
+  .comments{
+    width: 100%;
+    display: block;
+  }
+
+  .information, .reviews, .comments {
+    width: 100%; /* Ancho completo en dispositivos móviles */
+  }
+
+  .card_purple_light {
+    background-color: #f7f2f8;
+    border-radius: 5px;
+    width: 100%; 
+    margin: 1.2rem 0; 
+    padding: 1.8rem 0rem;
+    text-align: center;
+    display: block;
+  }
+
+  .card_purple_dark {
+    background-color: #511f50;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 1.8rem 0rem;
+  }
+
+  .information h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+    margin-bottom: 1.2rem;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .reviews p{
+    color: #511f50;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0rem 0rem 0rem 0.8rem;
+  }
+
+  .information p{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .star {
+    margin-bottom: 0.5rem;
+  }
+
+  .star img{
+    margin-left: 0.5rem;
+  }
+
+  .top{
+    margin-right: 0rem;
+  }
+  .mid {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  
+  .bot{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  div .img img{
+    width: 45%;
+    margin-left: 2rem;
+  }
+
+  div .data{
+    margin-left: 0.5rem;
+  }
+
+  .comments .name {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
+  }
+  
+  .comments .verified{
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0;
+  }
+  
+  .comments .rev p{
+    font-size: 0.8rem;
+    margin-left: 2.1rem;
+    margin-right:2.1rem ;
+    
+  }
+}
