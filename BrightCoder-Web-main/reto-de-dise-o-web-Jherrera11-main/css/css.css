@@ -1,0 +1,159 @@
+/*<-- General styles stard -->*/
+::-webkit-scrollbar {
+  display: none;
+  }
+
+
+body {
+  background: 
+    url(/images/bg-pattern-bottom-desktop.svg) bottom right no-repeat,
+    url(/images/bg-pattern-top-desktop.svg) top left no-repeat;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+/*<-- General styles end -->*/
+
+/*<-- Contend styles stard -->*/
+.box{
+  padding: 3rem 7%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.card_purple_light {
+  background-color: #f7f2f8;
+  border-radius: 5px;
+  margin: 1.2rem;
+  padding: 1.8rem 2.5rem;
+  display: flex;
+}
+
+.card_purple_dark {
+  background-color: #511f50;
+  border-radius: 10px;
+  margin: 1.2rem;
+  padding: 1.8rem 2.5rem;
+}
+
+
+/*<-- information styles stard -->*/
+.information{
+  font-family: 'Prompt', sans-serif;
+  min-height: 150px;
+  width: 40%; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.information h1{
+  color: #511f50;
+  font-size: 3.8rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+  margin-right: 3.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.information p{
+  color: #918c93;
+  font-size: 1.4rem;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+/*<-- information styles end -->*/
+
+/*<-- reviews styles stard -->*/
+.reviews{
+  min-height: 150px;
+  width: 50%; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.reviews p{
+  color: #511f50;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0rem 0rem 0rem 0.8rem;
+}
+
+.top{
+  margin-right: 15.5rem;
+}
+.mid {
+  margin-left: 4.6rem;
+  margin-right: 9rem;
+}
+
+.bot{
+  margin-left: 9.6rem;
+  margin-right: 3rem;
+}
+/*<-- reviews styles end -->*/
+
+/*<-- Comments styles stard -->*/
+.comments{
+  display: flex;
+  padding-top: 50px;
+}
+
+.comments .name {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.comments .verified{
+  color: #91487b;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+  margin-top: 0;
+}
+
+.comments p{
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  
+}
+
+div .data{
+  margin-left: 2.5rem;
+}
+
+div .img img{
+  border-radius: 50px;
+}
+
+.cont{
+  display: flex;
+}
+
+.first{
+  margin-bottom: 8rem;
+}
+
+.second {
+  margin-top: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.third{
+  margin-top: 7rem;
+}
+/*<-- Comments styles end -->*/
+
+/*<-- Contend styles end -->*/
