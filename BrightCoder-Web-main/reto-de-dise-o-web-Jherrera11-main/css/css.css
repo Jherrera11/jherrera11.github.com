@@ -186,6 +186,7 @@ div .img img{
   .comments{
     width: 100%;
     display: block;
+    padding: 20px;
   }
 
   .information, .reviews, .comments {
