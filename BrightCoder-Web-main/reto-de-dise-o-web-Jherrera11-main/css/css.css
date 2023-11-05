@@ -163,6 +163,13 @@ div .img img{
 /*<-- Contend styles end -->*/
 
 @media only screen and (max-width: 768px) {
+
+  .body{
+    background: 
+    url(../images/bg-pattern-bottom-mobile.svg) bottom right no-repeat,
+    url(../images/bg-pattern-top-mobile.svg) top left no-repeat;
+  }
+  
   .container {
     padding: 10px; /* Ajustar el espaciado general en dispositivos móviles */
   }
